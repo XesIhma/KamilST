@@ -1,128 +1,343 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="ID=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kamil Starzyk</title>
-  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="./assets/css/aos.css" />
-  <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
-<body data-bs-spy="scroll" data-bs-target=".navbar">
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <div class="container flex-lg-column">
-      <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
-        <span class="h3 fw-bold d-block d-lg-none">Kamil Starzyk</span>
-        <img src="./assets/images/profile.png" class="d-none d-lg-block rounded-circle" alt=""/>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home">Strona główna<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#technologies">Technologie</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projekty</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#blog">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Kontakt</a>
-          </li>
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ID=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kamil Starzyk</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/aos.css" />
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/icon.png">
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container flex-lg-column">
+        <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+          <span class="h3 my-2 fw-bold d-block d-lg-none">Kamil Starzyk</span>
+          <img
+            src="./assets/images/profile.png"
+            class="d-none d-lg-block rounded-circle"
+            alt=""
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home"
+                >Strona główna<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#technologies">Technologie</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projekty</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontakt</a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+
+    <div id="content-wrapper">
+
+      <section id="home" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10">
+              <h1 class="display-4 fw-bold" data-aos="fade-up">
+                Full Stack <span class="text-brand">Developer</span>
+              </h1>
+              <p class="lead" data-aos="fade-up" data-aos-delay="200">
+                Nazywam się Kamil Starzyk. Robię rzeczy i tak dalej, lorem ipsum
+                dolor sit amet Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit. Temporibus eum non soluta. Provident magni
+                tempore temporibus ipsam deserunt repudiandae suscipit
+                necessitatibus! Quibusdam aliquid explicabo doloribus
+                reprehenderit tempore at dicta officia!
+              </p>
+              <div data-aos="fade-up" data-aos-delay="400">
+                <a href="#projects" class="btn btn-brand" style="margin-right: 16px;">Moje projekty</a>
+                
+                <a href="#contact" class="btn" style="padding: 12px 0;"
+                  ><span class="link-custom">Kontakt:&nbspkamil_starzyk@outlook.com</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="technologies" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row rb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">Technologie</h6>
+              <h1>Technologie, z któych korzystam</h1>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="technology p-4 mb-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4" style="float: left">
+                  <i class="lab la-html5"></i>
+                </div>
+                <div class="iconbox rounded-4">
+                  <i class="lab la-css3"></i>
+                </div>
+                <h4 class="mt-3 mb-2">HTML i CSS</h4>
+                <p>
+                  Tworzę strony i tak dalej html css Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                </p>
+                <a href="#" class="link-custom">Dowiedz się więcej</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+              <div class="technology p-4 mb-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="lab la-python"></i>
+                </div>
+                <h4 class="mt-3 mb-2">Python</h4>
+                <p>Tworzę strony i tak dalej html css</p>
+                <a href="#" class="link-custom">Dowiedz się więcej</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="technology p-4 mb-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="lab la-php"></i>
+                </div>
+                <h4 class="mt-3 mb-2">PHP / Laravel</h4>
+                <p>Tworzę strony i tak dalej html css</p>
+                <a href="#" class="link-custom">Dowiedz się więcej</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row rb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">Projekty</h6>
+              <h1>Moje ostatnie projekty</h1>
+            </div>
+            <div class="row gy-4">
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-custom rounded-4 bg-base shadow-effect">
+                  <div class="card-custom-image rounded-4">
+                    <img
+                      class="rounded-4"
+                      src="./assets/images/tilted_trakt.png"
+                      alt="gra tekstowa Trakt - obrazek"
+                    />
+                  </div>
+                  <div class="card-custom-content p-4">
+                    <h4>Trakt - gra tekstowa</h4>
+                    <p>
+                      Gra tekstowa napisana w python. Lorem ipsum dolor sit amet
+                    </p>
+                    <a
+                      href="https://github.com/XesIhma/Trakt"
+                      class="link-custom"
+                      >Kod źródłowy
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="card-custom rounded-4 bg-base shadow-effect">
+                  <div class="card-custom-image rounded-4">
+                    <img
+                      class="rounded-4"
+                      src="./assets/images/tilted_finitespace.png"
+                      alt="gra internetowa FiniteSpace - obrazek"
+                    />
+                  </div>
+                  <div class="card-custom-content p-4">
+                    <h4>FiniteSpace</h4>
+                    <p>
+                      Gra internetowa stworzona w Php przy użyciu frameworka
+                      Laravel
+                    </p>
+                    <a
+                      href="https://github.com/XesIhma/Finite space"
+                      class="link-custom"
+                      >Kod źródłowy</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+                <div class="card-custom rounded-4 bg-base shadow-effect">
+                  <div class="card-custom-image rounded-4">
+                    <img
+                      class="rounded-4"
+                      src="./assets/images/lena_screen.png"
+                      alt="gra internetowa FiniteSpace - obrazek"
+                    />
+                  </div>
+                  <div class="card-custom-content p-4">
+                    <h4>Strona wizytówka</h4>
+                    <p>
+                      Przykładowa strona wizytówka dla salonu fryzjerskiego.
+                      Wykorzystano w niej wiele animacji i przejść
+                    </p>
+                    <a href="#" class="link-custom">Kod źródłowy</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="800">
+                <div class="card-custom rounded-4 bg-base shadow-effect">
+                  <div class="card-custom-image rounded-4">
+                    <img
+                      class="rounded-4"
+                      src="./assets/images/dudzisz.jpg"
+                      alt="gra internetowa FiniteSpace - obrazek"
+                    />
+                  </div>
+                  <div class="card-custom-content p-4">
+                    <h4>Lorem ipsum</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vitae reiciendis id aspernatur quam! Alias dolore in veniam ipsa inventore? 
+                    </p>
+                    <a href="#" class="link-custom">Kod źródłowy</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">BLOG</h6>
+              <h1>Ostatnie wpisy na blogu</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/images/blog1.jfif"
+                    alt="gra tekstowa Trakt - obrazek"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <p class="mb-2">09.03.2023</p>
+                  <h5 class="text-brand mb-4">Początek historii</h5>
+                  <a href="https://github.com/XesIhma/Trakt" class="link-custom"
+                    >Przeczytaj
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/images/blog1.jfif"
+                    alt="gra tekstowa Trakt - obrazek"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <p class="mb-2">09.03.2023</p>
+                  <h5 class="text-brand mb-4">Środek historii</h5>
+                  <a href="https://github.com/XesIhma/Trakt" class="link-custom"
+                    >Przeczytaj
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/images/blog1.jfif"
+                    alt="gra tekstowa Trakt - obrazek"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <p class="mb-2">09.03.2023</p>
+                  <h5 class="text-brand mb-4">Koniec historii</h5>
+                  <a href="https://github.com/XesIhma/Trakt" class="link-custom"
+                    >Przeczytaj
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row justify-content-center" data-aos="fade-up">
+            <div class="col-lg-8 pb-4">
+              <h6 class="text-brand">KONTAKT</h6>
+              <h1>Zainteresowany współpracą? Napisz</h1>
+            </div>
+          
+
+            <div class="col-lg-8">
+              <form action="#" class="row g-lg-3 gy-3" >
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" placeholder="Imię">
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="email" class="form-control" placeholder="email">
+                </div>
+                <div class="form-group col-md-12">
+                  <input type="text" class="form-control" placeholder="Temat">
+                </div>
+                <div class="form-group col-md-12">
+                  <textarea name="" rows="4" class="form-control" placeholder="Twoja wiadomość"></textarea>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-  </nav>
 
-  <div id="content-wrapper">
-
-    <section id="home" class="full-height px-lg-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10">
-            <h1 class="display-4 fw-bold" data-aos="fade-up">Full Stack <span class="text-brand">Developer</span></h1>
-            <p class="lead" data-aos="fade-up" data-aos-delay="200">Nazywam się Kamil Starzyk. Robię rzeczy i tak dalej, lorem ipsum
-              dolor sit amet Lorem ipsum dolor, sit amet consectetur
-              adipisicing elit. Temporibus eum non soluta. Provident magni
-              tempore temporibus ipsam deserunt repudiandae suscipit
-              necessitatibus! Quibusdam aliquid explicabo doloribus
-              reprehenderit tempore at dicta officia!</p>
-            <div  data-aos="fade-up" data-aos-delay="400">
-              <a href="#projects" class="btn btn-brand">Moje projekty</a>
-              <a href="#contact" class="link-custom">Kontakt: kamil_starzyk@outlook.com</a>
-            </div>
-           
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="technologies" class="full-height px-lg-5">
-      <div class="container">
-        <div class="row rb-4" data-aos="fade-up">
-          <div class="col-lg-8">
-            <h6 class="text-brand">Technologie</h6>
-            <h1>Technologie, z któych korzystam</h1>
-          </div>
-        </div>
-
-        <div class="row">
-
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="technology p-4 bg-base rounded-4 shadow-effect">
-              <div class="iconbox rounded-4" style="float:left">
-                <i class="lab la-html5"></i>
-              </div>
-              <div class="iconbox rounded-4">
-                <i class="lab la-css3"></i>
-              </div>
-              <h4 class="mt-3 mb-2">HTML i CSS</h4>
-              <p>Tworzę strony i tak dalej html css Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-              <a href="#" class="link-custom">Dowiedz się więcej</a>
-            </div>
-          </div>
-
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
-            <div class="technology p-4 bg-base rounded-4 shadow-effect">
-              <div class="iconbox rounded-4">
-                <i class="lab la-python"></i>
-              </div>
-              <h4 class="mt-3 mb-2">Python</h4>
-              <p>Tworzę strony i tak dalej html css</p>
-              <a href="#" class="link-custom">Dowiedz się więcej</a>
-            </div>
-          </div>
-
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
-            <div class="technology p-4 bg-base rounded-4 shadow-effect">
-              <div class="iconbox rounded-4">
-                <i class="lab la-php"></i>
-              </div>
-              <h4 class="mt-3 mb-2">PHP / Laravel</h4>
-              <p>Tworzę strony i tak dalej html css</p>
-              <a href="#" class="link-custom">Dowiedz się więcej</a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-
-
-
-  </div>
-
-  <script src="./assets/js/bootstrap.bundle.min.js"></script>
-  <script src="./assets/js/aos.js"></script>
-  <script src="./assets/js/main.js"></script>
-</body>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>

@@ -125,6 +125,7 @@ color: var(--color-brand)
   border-color: var(--color-body);
 }
 
+
 .link-custom {
   font-weight: 700;
   position: relative;
@@ -142,4 +143,20 @@ color: var(--color-brand)
 }
 .link-custom:hover::after{
   width:100%;
+}
+
+.card-custom, .card-custom-image{
+  overflow: hidden;
+}
+.card-custom-image{
+}
+
+.card-custom .card-custom-image img{
+  
+  object-fit: cover;
+  transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img{
+  transform: scale(1.1);
 }
